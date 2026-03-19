@@ -20,7 +20,7 @@ def home():
             "skill_name": "Lập trình Python cơ bản",
             "description": "Python là một ngôn ngữ lập trình phổ biến, dễ học và có ứng dụng rộng rãi trong nhiều lĩnh vực.",
             "percentage": 70,
-            "certificate": ''
+            "certificate": 'docs/thang.pdf'
         },
         {
             "skill_name": "Lập trình Python nâng cao",
@@ -32,7 +32,7 @@ def home():
             "skill_name": "Lập trình Web",
             "description": "Lập trình Web là quá trình tạo ra các trang web và ứng dụng web tương tác.",
             "percentage": 90,
-            "certificate": 'docs/thang.pdf'
+            "certificate": ''
         }
     ]
     return render_template("index.html", name=my_name, title = my_bio, email = contact_email, skills = my_skills)
