@@ -4,7 +4,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     
-    my_name= "Thang"
+    my_name= "THẮNG"
     my_bio = "best chamber"
     contact_email = "nhanminhthang4a1@gmail.com"
    
